@@ -105,7 +105,7 @@ public class HelloApplication extends Application {
 
         } catch (NumberFormatException ex) {
 
-            // Displays message if inout is invalid
+            // Displays message if input is invalid
             monthlyPaymentField.setText("Invalid Input!");
             totalPaymentField.setText("Invalid Input!");
         }
